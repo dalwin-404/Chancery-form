@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chancery Intl School | Complaint Portal</title>
+  <link   rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Chancery International School</h1>
+      <p>Your concerns matter to us. Submit your complaints and get a prompt response.</p>
+      <a href="#complaint-form" class="cta-button">Submit Complaint</a>
+    </div>
+  </header>+
+
+  <section id="complaint-form" class="form-section">
+    <h2>Complaint Form</h2>
+    <form id="contact-form" action="https://formspree.io/f/xzzrbzeb" method="POST">
+      <input type="text" name="parent_name" placeholder="Your Name" required />
+      <input type="email" name="parent_email" placeholder="Your Email" required />
+      <input type="text" name="student_name" placeholder="Student's Name" required />
+      <textarea name="message" rows="6" placeholder="Your Complaint" required></textarea> 
+      <button type="submit">Send Complaint</button>
+    </form>
+    <p id="status-msg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chancery International School. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
